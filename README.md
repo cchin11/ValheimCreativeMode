@@ -27,3 +27,6 @@ currently supports:
  - ghost
  - removedrops
  - spawn
+
+https://www.nexusmods.com/valheim/mods/795
+https://valheim.thunderstore.io/package/cchin11/ValheimCreativeMode/
