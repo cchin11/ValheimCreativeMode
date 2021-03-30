@@ -65,7 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsolePatch.cs" />
+    <Compile Include="ZNet_Patch.cs" />
+    <Compile Include="Console_Patch.cs" />
     <Compile Include="ValheimCreativeMode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

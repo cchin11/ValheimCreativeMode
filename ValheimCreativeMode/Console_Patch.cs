@@ -1,5 +1,4 @@
-﻿using BepInEx;
-using HarmonyLib;
+﻿using HarmonyLib;
 using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -15,12 +14,12 @@ namespace ValheimCreativeMode
             string[] array = text.Split(new char[]
             {' '});
 
-            if (__instance.IsCheatsEnabled())
+            // do not enable unless we are on dedicated server
+            if (__instance.IsCheatsEnabled() && !ZNet_Patch.m_isServer) 
             {
                 if (array[0] == "debugmode")
                 {
                     Player.m_debugMode = !Player.m_debugMode;
-                    Debug.Log(Player.m_debugMode.ToString());
                     __instance.Print("Debugmode " + Player.m_debugMode.ToString());
                 }
 
