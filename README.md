@@ -15,13 +15,12 @@ You must manually enable the Valheim console in steam:
 
 
 currently supports:
-god
+**god
 heal
 pos
 resetcharacter
 raiseskill
 resetskill
-
 debugmode
 freefly
 ffsmooth
@@ -36,24 +35,22 @@ players
 removedrops
 tame
 killall
-dpsdebug
+dpsdebug**
 
 Additional QOL commands:
-stamina
+
+**stamina**
 	- inifinite stamina cheat
-
-damage
+**damage**
 	- max damage cheat (for breaking trees/mining)
-
-nodrop
+**nodrop**
 	- prevent character from dropping items on death
-
-nobreak
+**nobreak**
 	- prevent damage to buildings so you don't have to repair base
-
-fireplace
-	- instantly replenish fuel on all torches/fireplaces around you, and prevent them from running out
-
-https://www.nexusmods.com/valheim/mods/795
-
+**fireplace**
+	- instantly replenish fuel on all torches/fireplaces around you, and prevent them from running out				
+https://www.nexusmods.com/valheim/mods/795				
 https://valheim.thunderstore.io/package/cchin11/ValheimCreativeMode/
+
+
+
