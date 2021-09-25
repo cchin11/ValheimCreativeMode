@@ -78,7 +78,8 @@ Additional QOL commands:
 **fireplace**
 	- instantly replenish fuel on all torches/fireplaces around you, and prevent them from running out	
 	
-https://www.nexusmods.com/valheim/mods/795				
+https://www.nexusmods.com/valheim/mods/795
+
 https://valheim.thunderstore.io/package/cchin11/ValheimCreativeMode/
 
 
