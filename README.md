@@ -1,6 +1,8 @@
 # Valheim Creative Mode
 Valheim mod that enables devcommands on Valheim dedicated servers. 
 
+**Sept 25: Fixed for HnH and added some QOL commands.**
+
 You must manually enable the Valheim console in steam:
  - Open Steam
  - Go to Library
@@ -14,20 +16,71 @@ You must manually enable the Valheim console in steam:
 
 
 currently supports:
- - debugmode
- - god
- - raiseskill
- - resetskill
- - exploremap
- - resetmap
- - puke
- - tame
- - killall
- - heal
- - ghost
- - removedrops
- - spawn
 
+**god**
+
+**heal**
+
+**pos**
+
+**resetcharacter**
+
+**raiseskill**
+
+**resetskill**
+
+**debugmode**
+
+**freefly**
+
+**ffsmooth**
+
+**resetmap**
+
+**exploremap**
+
+**tod**
+
+**skiptime**
+
+**wind**
+
+**resetwind**
+
+**spawn**
+
+**players**
+
+**removedrops**
+
+**tame**
+
+**killall**
+
+**dpsdebug**
+
+
+
+Additional QOL commands:
+
+**stamina**
+	- inifinite stamina cheat
+	
+**damage**
+	- max damage cheat (for breaking trees/mining)
+	
+**nodrop**
+	- prevent character from dropping items on death
+	
+**nobreak**
+	- prevent damage to buildings so you don't have to repair base
+	
+**fireplace**
+	- instantly replenish fuel on all torches/fireplaces around you, and prevent them from running out	
+	
 https://www.nexusmods.com/valheim/mods/795
 
 https://valheim.thunderstore.io/package/cchin11/ValheimCreativeMode/
+
+
+
