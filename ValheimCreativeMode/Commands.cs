@@ -10,6 +10,8 @@
         public bool dropItemsCheatEnabled = false;
         public bool fireplaceCheatEnabled = false;
 
+        public bool isServer;
+
         public void ToggleCheats()
         {
             cheatsEnabled = !cheatsEnabled;

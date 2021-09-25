@@ -1,16 +1,15 @@
 ﻿using HarmonyLib;
+using UnityEngine;
 
 namespace ValheimCreativeMode
 {
-   /* [HarmonyPatch(typeof(ZNet), "Awake")]
-    public static class ZNet_Patch
+    // store ___m_isServer so we can tell if we are local or online
+    [HarmonyPatch(typeof(ZNet), "Awake")]
+    class ZNet_Awake_Patch
     {
-        // store result of m_isServer so we can determine if we are playing on dedicated server
-        public static bool m_isServer;
-
         static void Postfix(bool ___m_isServer)
         {
-            m_isServer = ___m_isServer;
+            ValheimCheats.commands.isServer = ___m_isServer;
         }
-    }*/
+    }
 }

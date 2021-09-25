@@ -3,7 +3,7 @@ using HarmonyLib;
 
 namespace ValheimCreativeMode
 {
-    [BepInPlugin("cchin.ValheimCreativeMode", "Valheim Creative Mode", "1.2.0")]
+    [BepInPlugin("cchin.ValheimCreativeMode", "Valheim Creative Mode", "1.2.1")]
     [BepInProcess("valheim.exe")]
     public class ValheimCheats : BaseUnityPlugin
     {

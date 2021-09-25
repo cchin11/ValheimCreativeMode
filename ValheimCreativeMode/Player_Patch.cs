@@ -36,7 +36,7 @@ namespace ValheimCreativeMode
     {
         static bool Prefix(Player __instance, ref bool ___m_debugMode)
         {
-            if (___m_debugMode)
+            if (!ValheimCheats.commands.isServer && ___m_debugMode)
             {
                 if (Input.GetKeyDown(KeyCode.Z))
                 {
